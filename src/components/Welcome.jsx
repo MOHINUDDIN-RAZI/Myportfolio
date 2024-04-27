@@ -19,7 +19,7 @@ function Welcome() {
                     1000,
                     "Editor",
                     1000,
-                    "Front End Devloper",
+                    "Front End Developer",
                     1000,
                   ]}
                   wrapper="span"
@@ -32,7 +32,7 @@ function Welcome() {
           </div>
         </div>
         <div className="col">
-          <img src="./src/assets/portfoliopic.png"></img>
+          <img src="./src/assets/portfoliopic.png" width="400px"></img>
         </div>
       </div>
     </div>

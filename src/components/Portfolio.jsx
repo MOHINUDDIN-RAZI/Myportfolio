@@ -4,8 +4,8 @@ function Portfolio() {
       <center>
         <img
           src=".\src\assets\portfolio.png"
-          width="400px"
-          height="200px"
+          width="380px"
+          height="190px"
         ></img>
       </center>
     </>

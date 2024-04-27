@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg bg-black border-bottom border-body"
+        className="navbar sticky-top navbar-expand-lg border-body border-bottom border-danger border-5"
         data-bs-theme="dark"
       >
         <div className="container-fluid">
@@ -32,12 +32,12 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#about">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#skills">
                   Skills
                 </a>
               </li>
@@ -60,7 +60,6 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="h4 pb- mb-4 text-danger border-bottom border-danger border-5"></div>
     </>
   );
 }
