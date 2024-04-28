@@ -5,18 +5,22 @@ function Button() {
       <br></br>
       <br></br>
       <div className="d-grid gap-3 col-3 mx-auto">
-        <button
-          id={styles.btn1}
-          className="btn btn-danger"
-          type="button"
+        <a
+          href="https://coursera.org/share/7a975d86d6f23b4aa819ebd466502da1"
           target="_blank"
-          href
+          className="btn btn-danger"
+          id={styles.btn1}
         >
           View Resume
-        </button>
-        <button id={styles.btn1} className="btn btn-dark" type="button" href>
+        </a>
+        <a
+          href="https://coursera.org/share/7a975d86d6f23b4aa819ebd466502da1"
+          target="_blank"
+          className="btn btn-dark"
+          id={styles.btn1}
+        >
           Contact Me
-        </button>
+        </a>
       </div>
     </>
   );

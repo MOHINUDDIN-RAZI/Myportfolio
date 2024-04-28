@@ -2,9 +2,6 @@ function About() {
   return (
     <>
       <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
       <section id="about" className="section">
         <div className="container text-center">
           <div className="row">
@@ -32,7 +29,6 @@ function About() {
             </div>
           </div>
         </div>
-        <br></br>
       </section>
     </>
   );

@@ -62,7 +62,7 @@ function Skills() {
                   src="./src/assets/C++.png"
                   width="75px"
                   height="70px"
-                  className="pb-2"
+                  className="pb-1"
                 ></img>
                 <figcaption>C++</figcaption>
               </figure>
@@ -71,7 +71,7 @@ function Skills() {
                   src="./src/assets/java.png"
                   width="70px"
                   height="70px"
-                  className="pb-2"
+                  className="pb-1"
                 ></img>
                 <figcaption>Java</figcaption>
               </figure>
@@ -80,7 +80,7 @@ function Skills() {
                   src="./src/assets/Python.png"
                   width="65px"
                   height="70px"
-                  className="pb-2"
+                  className="pb-1"
                 ></img>
                 <figcaption>Python</figcaption>
               </figure>
@@ -89,7 +89,7 @@ function Skills() {
                   src="./src/assets/Android.png"
                   width="70px"
                   height="70px"
-                  className="pb-2"
+                  className="pb-1"
                 ></img>
                 <figcaption>Android</figcaption>
               </figure>
@@ -98,14 +98,13 @@ function Skills() {
                   src="./src/assets/react.svg"
                   width="70px"
                   height="70px"
-                  className="pb-2"
+                  className="pb-1"
                 ></img>
                 <figcaption>React</figcaption>
               </figure>
             </div>
           </div>
         </div>
-        <br></br>
       </section>
     </>
   );

@@ -5,4 +5,9 @@
 h1{
   font-family: 'Acme', sans-serif;
   }
-
+.custom{
+  color:bisque
+}
+.section{
+  padding-top: 86px;
+}

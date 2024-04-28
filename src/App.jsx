@@ -6,6 +6,10 @@ import Welcome from "./components/Welcome";
 import Button from "./components/Button";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Certificates from "./components/Certificates";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -15,6 +19,10 @@ function App() {
       <Button></Button>
       <About></About>
       <Skills></Skills>
+      <Certificates></Certificates>
+      <Projects></Projects>
+      <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 }

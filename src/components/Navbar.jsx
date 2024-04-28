@@ -2,16 +2,12 @@ function Navbar() {
   return (
     <>
       <nav
-        className="navbar sticky-top navbar-expand-lg border-body border-bottom border-danger border-5"
+        className="navbar sticky-top navbar-expand-lg border-body border-bottom border-danger border-2"
         data-bs-theme="dark"
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img
-              src=".\src\assets\Superboy.png"
-              width="50px"
-              height="50px"
-            ></img>
+            <img src=".\src\assets\logo1.png" width="50px" height="50px"></img>
           </a>
           <button
             className="navbar-toggler"
@@ -42,17 +38,17 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#certificates">
                   Certificates
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#projects">
                   Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#contact">
                   Contact
                 </a>
               </li>
