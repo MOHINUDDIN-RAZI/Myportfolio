@@ -13,12 +13,7 @@ function Button() {
         >
           View Resume
         </a>
-        <a
-          href="https://coursera.org/share/7a975d86d6f23b4aa819ebd466502da1"
-          target="_blank"
-          className="btn btn-dark"
-          id={styles.btn1}
-        >
+        <a href="#contact" className="btn btn-dark" id={styles.btn1}>
           Contact Me
         </a>
       </div>

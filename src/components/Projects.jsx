@@ -43,7 +43,7 @@ function Projects() {
               venomous snake species and safety tips for outdoor enthusiasts.
               <br></br>
               <a
-                href="https://coursera.org/share/7a975d86d6f23b4aa819ebd466502da1"
+                href="https://github.com/MOHINUDDIN-RAZI/Venomous-snake-detection"
                 target="_blank"
                 className="btn btn-secondary mb-5 mt-4"
               >
