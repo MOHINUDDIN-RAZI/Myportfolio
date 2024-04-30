@@ -18,11 +18,11 @@ function Projects() {
               capabilities and expertise.
               <br></br>
               <a
-                href="https://coursera.org/share/7a975d86d6f23b4aa819ebd466502da1"
+                href="https://github.com/MOHINUDDIN-RAZI/Myportfolio.git"
                 target="_blank"
                 className="btn btn-secondary mb-5 mt-4"
               >
-                Visit Website
+                View Details
               </a>
             </div>
           </div>
@@ -47,7 +47,7 @@ function Projects() {
                 target="_blank"
                 className="btn btn-secondary mb-5 mt-4"
               >
-                Visit Website
+                View Details
               </a>
             </div>
           </div>
