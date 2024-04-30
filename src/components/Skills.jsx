@@ -1,3 +1,14 @@
+import html from "../assets/images/html.png";
+import CSS from "../assets/images/CSS.png";
+import Bootstrap from "../assets/images/Bootstrap.png";
+import js from "../assets/images/js.png";
+import Cpro from "../assets/images/C pro.png";
+import Cplus from "../assets/images/c++.png";
+import java from "../assets/images/java.png";
+import Python from "../assets/images/Python.png";
+import Android from "../assets/images/Android.png";
+import react1 from "../assets/images/react.svg";
+
 function Skills() {
   return (
     <>
@@ -12,7 +23,7 @@ function Skills() {
             <div className="d-flex pt-5 pe-5 justify-content-around text-secondary">
               <figure>
                 <img
-                  src="./src/assets/html.png"
+                  src={html}
                   width="85px"
                   height="60px"
                   className="pb-2"
@@ -21,7 +32,7 @@ function Skills() {
               </figure>
               <figure>
                 <img
-                  src="./src/assets/CSS.png"
+                  src={CSS}
                   width="80px"
                   height="60px"
                   className="pb-2"
@@ -30,7 +41,7 @@ function Skills() {
               </figure>
               <figure>
                 <img
-                  src="./src/assets/Bootstrap.png"
+                  src={Bootstrap}
                   width="70px"
                   height="60px"
                   className="pb-2"
@@ -38,17 +49,12 @@ function Skills() {
                 <figcaption>Bootstrap</figcaption>
               </figure>
               <figure>
-                <img
-                  src="./src/assets/js.png"
-                  width="80px"
-                  height="60px"
-                  className="pb-2"
-                ></img>
+                <img src={js} width="80px" height="60px" className="pb-2"></img>
                 <figcaption>Javascript</figcaption>
               </figure>
               <figure>
                 <img
-                  src="./src/assets/C pro.png"
+                  src={Cpro}
                   width="60px"
                   height="60px"
                   className="pb-2"
@@ -59,7 +65,7 @@ function Skills() {
             <div className="d-flex pt-5 pe-5 justify-content-around text-secondary">
               <figure>
                 <img
-                  src="./src/assets/C++.png"
+                  src={Cplus}
                   width="75px"
                   height="70px"
                   className="pb-1"
@@ -68,7 +74,7 @@ function Skills() {
               </figure>
               <figure>
                 <img
-                  src="./src/assets/java.png"
+                  src={java}
                   width="70px"
                   height="70px"
                   className="pb-1"
@@ -77,7 +83,7 @@ function Skills() {
               </figure>
               <figure>
                 <img
-                  src="./src/assets/Python.png"
+                  src={Python}
                   width="65px"
                   height="70px"
                   className="pb-1"
@@ -86,7 +92,7 @@ function Skills() {
               </figure>
               <figure>
                 <img
-                  src="./src/assets/Android.png"
+                  src={Android}
                   width="70px"
                   height="70px"
                   className="pb-1"
@@ -95,7 +101,7 @@ function Skills() {
               </figure>
               <figure>
                 <img
-                  src="./src/assets/react.svg"
+                  src={react1}
                   width="70px"
                   height="70px"
                   className="pb-1"

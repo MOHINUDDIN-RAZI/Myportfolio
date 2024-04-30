@@ -1,3 +1,7 @@
+import linkedin from "../assets/images/linkedin.png";
+import gmail from "../assets/images/gmail.png";
+import github from "../assets/images/github.png";
+
 function Contact() {
   return (
     <>
@@ -13,28 +17,16 @@ function Contact() {
                 href="https://www.linkedin.com/in/mohinuddinrazi "
                 target="_blank"
               >
-                <img
-                  src="./src/assets/linkedin.png"
-                  width="40px"
-                  height="35px"
-                ></img>
+                <img src={linkedin} width="40px" height="35px"></img>
               </a>
               <a
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=mohinuddin6razi@gmail.com"
                 target="_blank"
               >
-                <img
-                  src="./src/assets/gmail.png"
-                  width="54px"
-                  height="35px"
-                ></img>
+                <img src={gmail} width="54px" height="35px"></img>
               </a>
               <a href="https://github.com/MOHINUDDIN-RAZI" target="_blank">
-                <img
-                  src="./src/assets/github.png"
-                  width="35px"
-                  height="35px"
-                ></img>
+                <img src={github} width="35px" height="35px"></img>
               </a>
             </div>
           </div>

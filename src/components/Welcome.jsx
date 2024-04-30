@@ -1,3 +1,4 @@
+import portfoliopic from "../assets/images/portfoliopic.png";
 import { TypeAnimation } from "react-type-animation";
 function Welcome() {
   return (
@@ -32,7 +33,7 @@ function Welcome() {
           </div>
         </div>
         <div className="col">
-          <img src="./src/assets/portfoliopic.png" width="400px"></img>
+          <img src={portfoliopic} width="400px"></img>
         </div>
       </div>
     </div>

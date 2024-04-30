@@ -1,3 +1,5 @@
+import logo from "../assets/images/logo1.png";
+
 function Navbar() {
   return (
     <>
@@ -7,7 +9,7 @@ function Navbar() {
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img src=".\src\assets\logo1.png" width="50px" height="50px"></img>
+            <img src={logo} width="50px" height="50px"></img>
           </a>
           <button
             className="navbar-toggler"
