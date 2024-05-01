@@ -3,7 +3,7 @@ function Portfolio() {
   return (
     <>
       <center>
-        <img src={portfolio} width="380px" height="190px"></img>
+        <img src={portfolio} width="360px" height="180px"></img>
       </center>
     </>
   );

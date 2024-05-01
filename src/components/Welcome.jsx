@@ -32,8 +32,8 @@ function Welcome() {
             </div>
           </div>
         </div>
-        <div className="col">
-          <img src={portfoliopic} width="400px"></img>
+        <div className="col me-4">
+          <img src={portfoliopic} width="360px"></img>
         </div>
       </div>
     </div>

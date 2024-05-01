@@ -4,7 +4,7 @@ function Button() {
     <>
       <br></br>
       <br></br>
-      <div className="d-grid gap-3 col-3 mx-auto">
+      <div className="d-grid gap-3 col-4 mx-auto">
         <a
           href="https://drive.google.com/file/d/1U8FbkjDUbkNenTki9HrsW_psgNWo4Wew/view?usp=drive_link"
           target="_blank"

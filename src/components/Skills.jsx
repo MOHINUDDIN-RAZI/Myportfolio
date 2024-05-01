@@ -20,11 +20,11 @@ function Skills() {
                 Skills
               </div>
             </div>
-            <div className="d-flex pt-5 pe-5 justify-content-around text-secondary">
+            <div className="d-flex pt-5 justify-content-around text-secondary">
               <figure>
                 <img
                   src={html}
-                  width="85px"
+                  width="70px"
                   height="60px"
                   className="pb-2"
                 ></img>
@@ -33,7 +33,7 @@ function Skills() {
               <figure>
                 <img
                   src={CSS}
-                  width="80px"
+                  width="70px"
                   height="60px"
                   className="pb-2"
                 ></img>
@@ -42,7 +42,7 @@ function Skills() {
               <figure>
                 <img
                   src={Bootstrap}
-                  width="70px"
+                  width="60px"
                   height="60px"
                   className="pb-2"
                 ></img>
@@ -55,9 +55,9 @@ function Skills() {
               <figure>
                 <img
                   src={Cpro}
-                  width="60px"
+                  width="70px"
                   height="60px"
-                  className="pb-2"
+                  className="pb-2 pe-3"
                 ></img>
                 <figcaption>C Prog</figcaption>
               </figure>
@@ -66,8 +66,8 @@ function Skills() {
               <figure>
                 <img
                   src={Cplus}
-                  width="75px"
-                  height="70px"
+                  width="70px"
+                  height="60px"
                   className="pb-1"
                 ></img>
                 <figcaption>C++</figcaption>
@@ -76,7 +76,7 @@ function Skills() {
                 <img
                   src={java}
                   width="70px"
-                  height="70px"
+                  height="60px"
                   className="pb-1"
                 ></img>
                 <figcaption>Java</figcaption>
@@ -84,8 +84,8 @@ function Skills() {
               <figure>
                 <img
                   src={Python}
-                  width="65px"
-                  height="70px"
+                  width="70px"
+                  height="60px"
                   className="pb-1"
                 ></img>
                 <figcaption>Python</figcaption>
@@ -93,8 +93,8 @@ function Skills() {
               <figure>
                 <img
                   src={Android}
-                  width="70px"
-                  height="70px"
+                  width="75px"
+                  height="60px"
                   className="pb-1"
                 ></img>
                 <figcaption>Android</figcaption>
