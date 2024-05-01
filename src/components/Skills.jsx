@@ -49,7 +49,7 @@ function Skills() {
                 <figcaption>Bootstrap</figcaption>
               </figure>
               <figure>
-                <img src={js} width="80px" height="60px" className="pb-2"></img>
+                <img src={js} width="70px" height="60px" className="pb-2"></img>
                 <figcaption>Javascript</figcaption>
               </figure>
               <figure>
@@ -103,7 +103,7 @@ function Skills() {
                 <img
                   src={react1}
                   width="70px"
-                  height="70px"
+                  height="60px"
                   className="pb-1"
                 ></img>
                 <figcaption>React</figcaption>
