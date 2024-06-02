@@ -8,6 +8,7 @@ import java from "../assets/images/java.png";
 import Python from "../assets/images/Python.png";
 import Android from "../assets/images/Android.png";
 import react1 from "../assets/images/react.svg";
+import sql from "../assets/images/mysql.png";
 
 function Skills() {
   return (
@@ -20,13 +21,13 @@ function Skills() {
                 Skills
               </div>
             </div>
-            <div className="d-flex pt-5 justify-content-around text-secondary">
+            <div className="ihc d-flex pt-5 justify-content-around text-secondary">
               <figure>
                 <img
                   src={html}
                   width="70px"
                   height="60px"
-                  className="pb-2"
+                  className="img2 pb-2"
                 ></img>
                 <figcaption>HTML5</figcaption>
               </figure>
@@ -35,7 +36,7 @@ function Skills() {
                   src={CSS}
                   width="70px"
                   height="60px"
-                  className="pb-2"
+                  className="img2 pb-2"
                 ></img>
                 <figcaption>CSS</figcaption>
               </figure>
@@ -44,31 +45,36 @@ function Skills() {
                   src={Bootstrap}
                   width="60px"
                   height="60px"
-                  className="pb-2"
+                  className="img2 pb-2"
                 ></img>
                 <figcaption>Bootstrap</figcaption>
-              </figure>
-              <figure>
-                <img src={js} width="70px" height="60px" className="pb-2"></img>
-                <figcaption>Javascript</figcaption>
               </figure>
               <figure>
                 <img
                   src={Cpro}
                   width="70px"
                   height="60px"
-                  className="pb-2 pe-3"
+                  className="img2 pb-2 pe-2 ps-1"
                 ></img>
                 <figcaption>C Prog</figcaption>
               </figure>
+              <figure>
+                <img
+                  src={js}
+                  width="70px"
+                  height="60px"
+                  className="img2 pb-2 pe-1"
+                ></img>
+                <figcaption> Javascript</figcaption>
+              </figure>
             </div>
-            <div className="d-flex pt-5 pe-5 justify-content-around text-secondary">
+            <div className="ihc d-flex pt-5 pe-5 justify-content-around text-secondary">
               <figure>
                 <img
                   src={Cplus}
                   width="70px"
                   height="60px"
-                  className="pb-1"
+                  className="img1 pb-1 pe-2"
                 ></img>
                 <figcaption>C++</figcaption>
               </figure>
@@ -77,7 +83,7 @@ function Skills() {
                   src={java}
                   width="70px"
                   height="60px"
-                  className="pb-1"
+                  className="img1 pb-1 pe-2"
                 ></img>
                 <figcaption>Java</figcaption>
               </figure>
@@ -86,25 +92,25 @@ function Skills() {
                   src={Python}
                   width="70px"
                   height="60px"
-                  className="pb-1"
+                  className="img1 pb-1 pe-2"
                 ></img>
                 <figcaption>Python</figcaption>
               </figure>
               <figure>
                 <img
-                  src={Android}
+                  src={sql}
                   width="75px"
                   height="60px"
-                  className="pb-1"
+                  className="img1 pb-1 pe-2"
                 ></img>
-                <figcaption>Android</figcaption>
+                <figcaption>MySQl</figcaption>
               </figure>
               <figure>
                 <img
                   src={react1}
                   width="70px"
                   height="60px"
-                  className="pb-1"
+                  className="img1 pb-1 pe-2"
                 ></img>
                 <figcaption>React</figcaption>
               </figure>

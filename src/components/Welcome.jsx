@@ -32,7 +32,7 @@ function Welcome() {
             </div>
           </div>
         </div>
-        <div className="col me-4">
+        <div className="ihc col me-4">
           <img src={portfoliopic} width="360px"></img>
         </div>
       </div>

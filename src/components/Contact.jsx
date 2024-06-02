@@ -12,7 +12,7 @@ function Contact() {
               <h3>Connect With Me!</h3>
               <div className="mail text-info mt-2"></div>
             </div>
-            <div className="socialmedia mb-5">
+            <div className="ihc socialmedia mb-5">
               <a
                 href="https://www.linkedin.com/in/mohinuddinrazi "
                 target="_blank"

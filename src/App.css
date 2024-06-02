@@ -11,8 +11,28 @@ h1{
 .section{
   padding-top: 86px;
 }
+.ihc{
+  position: relative;
+  user-select: none;
+}
+.ihc img {
+  pointer-events: none;
+}
 @media only screen and (max-width: 420px) {
   .section{
     padding-top: 36px;
   }
   }
+  @media only screen and (max-width: 320px) {
+    img{
+      max-width: 280px;
+    }
+    .img1{
+      max-width: 60px;
+      max-height: 50px;
+    }
+    .img2{
+      max-width: 50px;
+      max-height: 50px;
+    }
+    }
