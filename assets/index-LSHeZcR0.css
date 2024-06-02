@@ -1,4 +1,4 @@
-@charset "UTF-8";.name{padding-top:50px;font-size:medium}h1{font-family:Acme,sans-serif}.custom{color:bisque}.section{padding-top:86px}@media only screen and (max-width: 420px){.section{padding-top:36px}}/*!
+@charset "UTF-8";.name{padding-top:50px;font-size:medium}h1{font-family:Acme,sans-serif}.custom{color:bisque}.section{padding-top:86px}.ihc{position:relative;-webkit-user-select:none;user-select:none}.ihc img{pointer-events:none}@media only screen and (max-width: 420px){.section{padding-top:36px}}@media only screen and (max-width: 320px){img{max-width:280px}.img1{max-width:60px;max-height:50px}.img2{max-width:50px;max-height:50px}}/*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
